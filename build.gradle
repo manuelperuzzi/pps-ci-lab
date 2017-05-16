@@ -1,1 +1,10 @@
 apply plugin: 'java'
+// https://mvnrepository.com/artifact/it.unibo.alice.tuprolog/tuprolog
+
+repositories{
+    mavenCentral()
+}
+
+
+dependencies {
+    compile 'it.unibo.alice.tuprolog:tuprolog:3.2.1'}
